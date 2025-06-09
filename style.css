@@ -64,10 +64,21 @@ section h2 {
   color: #1f1f1f;
 }
 
+/* Imagem de perfil ou banner */
+.perfil-img {
+  display: block;
+  max-width: 200px;
+  width: 100%;
+  border-radius: 50%;
+  margin: 20px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
 /* Sobre */
 #sobre p {
   font-size: 1.1rem;
   margin-bottom: 15px;
+  text-align: justify;
 }
 
 /* Projetos */
@@ -93,6 +104,13 @@ section h2 {
 .projeto h3 {
   margin-bottom: 10px;
   color: #00d4ff;
+}
+
+.projeto img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 10px;
 }
 
 .projeto p {
